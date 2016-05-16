@@ -4,6 +4,7 @@ body {
 	color: white;
 	font-weight: bold;
 	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
 }
 
 .container {
@@ -84,6 +85,10 @@ hr {
 		flex-direction: column;
 	}
 
+	.container {
+		height: 100%;
+	}
+
 	.nav {
 		align-self: center;
 		padding: 0;
@@ -92,6 +97,7 @@ hr {
 	.call-to-action {
 		margin: auto;
 		padding: 10px;
+		margin-top: 85%;
 	}
 
 	.tagline {
