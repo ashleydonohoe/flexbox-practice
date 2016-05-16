@@ -1,21 +1,98 @@
 body {
 	margin: 0;
 	width: 100%;
+	color: white;
+	font-weight: bold;
 }
 
-
-.jumbotron {
+.container {
 	background: url("drone.jpg");
-	height: 50vh;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.jumbotron {
+	flex: 1;
 }
 
 header {
+	padding: 0.5em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nav {
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.call-to-action {
 	display: flex;
 	color: white;
-	font-style: italic;;
 	font-weight: bold;
-	padding: 0.5em;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 55%;
+	margin-top: 10%;
+	max-width: 100%;
+	padding-right: 0.5em;
+
+}
+
+.tagline {
+	align-self: flex-start;
+	padding-bottom: 0.5em;
+	font-size: 3em;
+	text-align: center;
+}
+
+button {
+	width: 10em;
+	height: 3em;
+	margin: auto;
+	background-color: white;
+	color: black;	
+}
+
+footer {
+	align-self: center;
+}
+
+hr {
+	width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+
+	h1 {
+		text-align:  center;
+	}
+
+	* {
+		color: black;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	.call-to-action {
+		margin: auto;
+		padding: 10px;
+	}
+
+	.tagline {
+		background-color: rgba(255, 255, 255, 0.5);
+		margin-top: 25%;
+	}
 }
