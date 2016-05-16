@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	width: 100%;
+}
+
+
+.jumbotron {
+	background: url("drone.jpg");
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	color: white;
+	font-style: italic;;
+	font-weight: bold;
+	padding: 0.5em;
+}
