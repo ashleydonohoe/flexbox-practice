@@ -38,8 +38,6 @@ header {
 
 .call-to-action {
 	display: flex;
-	color: white;
-	font-weight: bold;
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-left: 55%;
